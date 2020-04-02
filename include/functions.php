@@ -156,7 +156,7 @@ function siteName()
 {
     require dirname(__FILE__)."/../config.php";
     $mymenu = '<div class = "col-3">';
-    $mymenu .=$_CONFIG['siteName'];
+    $mymenu .= getString('siteName');
     $mymenu .= '</div>';
     return  $mymenu;
 }

@@ -15,7 +15,7 @@
  * @link      http://veno.es/qrcdr/
  */
 $_CONFIG = array(
-    'siteName'=> '元码二维码生成器|YuanMa.IN',
+    'siteName'=> 'YuanMa.IN',
     'lang' => 'cn',                             // main language
     'uploads_dir' => 'temp',                    // uploads directory
     'qrcodes_dir' => 'qrcodes',                 // qr codes directory
