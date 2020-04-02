@@ -66,3 +66,10 @@ $_CONFIG_Menu = array(
     'menu_3' => 'http://jike.in',                 // qr codes directory
 	'menu_4' => 'http://www.shenzhenjia.net',                 // qr codes directory
     );
+
+$_FRIEND_LINKS = array(
+    'menu_1' => 'http://www.yuanma.in',                             // main language
+    'menu_2' => 'http://huoma.yuanma.in',                    // uploads directory
+    'menu_3' => 'http://jike.in',                 // qr codes directory
+    'menu_4' => 'http://www.shenzhenjia.net',                 // qr codes directory
+);

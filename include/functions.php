@@ -172,6 +172,15 @@ function naviMenu()
     return $mymenu;
 }
 
+function friendLindsMenu()
+{
+    require dirname(__FILE__)."/../config.php";
+    $mymenu = '';
+    foreach ($_FRIEND_LINKS as $key => $value) {
+        $mymenu .= '<a class="btn-primary" href="' . $value . '">  ' . getString($key) . '  </a>|';
+    }
+    return $mymenu;
+}
 
 /**
  * Make thumbnails
